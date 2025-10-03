@@ -80,17 +80,51 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 - ## Screenshots
 
-### Web Interface
-![Interface](Screenshots/interface.png)
-
-### Prediction Examples
-
-**High Probability Patient:**
 ![High Probability](Screenshots/high-probability.png)
-
-**Medium Probability Patient:**
 ![Medium Probability](Screenshots/medium-probability.png)
-
-### API Documentation
+![Interface](Screenshots/interface.png)
 ![API Docs](Screenshots/api-docs.png)
+
+
+
+What This Project Demonstrates
+Technical Skills:
+
+End-to-end ML pipeline (data → model → deployment)
+API development with FastAPI
+Feature engineering and model selection methodology
+Production-ready code structure
+
+Healthcare Domain Knowledge:
+
+Understanding of clinical trial challenges
+HIPAA considerations for patient data
+Integration with healthcare workflows
+Business impact quantification
+
+Product Thinking:
+
+Built for actual users (research coordinators), not just data scientists
+Actionable recommendations, not just probabilities
+Designed for integration with existing systems
+
+
+Future Enhancements
+If given more time/resources, I would add:
+
+EHR Integration: Direct connection to Epic/Cerner via FHIR API
+Dropout Prediction: Model to identify patients at risk of leaving trial mid-study
+A/B Testing Framework: Compare recruitment strategies quantitatively
+Dashboard Analytics: Track enrollment trends over time for research managers
+---
+Contact
+Sai Mudragada
+Email: saimudragada1@gmail.com
+LinkedIn: https://www.linkedin.com/in/saimudragada/
+GitHub: https://github.com/Saimudragada
+
+Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
+
+
+*Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.*
 
