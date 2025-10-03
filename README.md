@@ -75,18 +75,18 @@ Future improvements I'm considering:
 ## Screenshots
 
 ### Web Interface
-![Interface](screenshots/interface.png)
+![Interface](Screenshots/interface.png)
 
 ### Prediction Examples
 
 **High Probability Patient:**
-![High Probability](screenshots/high-probability.png)
+![High Probability](Screenshots/high-probability.png)
 
 **Medium Probability Patient:**
-![Medium Probability](screenshots/medium-probability.png)
+![Medium Probability](Screenshots/medium-probability.png)
 
 ### API Documentation
-![API Docs](screenshots/api-docs.png)
+![API Docs](Screenshots/api-docs.png)
 
 ## Contact
 
