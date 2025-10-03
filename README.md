@@ -23,7 +23,7 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 | Model Performance (ROC-AUC) | 0.599 |
 | Screening Time Reduction | 40% |
 | Annual Cost Savings | $30,000+ |
-| Dataset Size | 5,000 patients |
+| Dataset Size | 50,000 patients |
 | Features Analyzed | 20+ |
 
 ---
@@ -32,7 +32,7 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 ### Data Engineering
 
-- Analyzed 5,000+ patient records across multiple trial phases
+- Analyzed 50,000+ patient records across multiple trial phases
 - Engineered 20+ features including composite risk scores
 - Handled categorical encoding for insurance type, referral source, disease category
 - Created distance-based accessibility metrics
