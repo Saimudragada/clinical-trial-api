@@ -23,7 +23,7 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 | Model Performance (ROC-AUC) | 0.599 |
 | Screening Time Reduction | 40% |
 | Annual Cost Savings | $30,000+ |
-| Dataset Size | 50,000 patients |
+| Dataset Size | 5,000 patients |
 | Features Analyzed | 20+ |
 
 ---
@@ -32,7 +32,7 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 ### Data Engineering
 
-- Analyzed 50,000+ patient records across multiple trial phases
+- Analyzed 5,000+ patient records across multiple trial phases
 - Engineered 20+ features including composite risk scores
 - Handled categorical encoding for insurance type, referral source, disease category
 - Created distance-based accessibility metrics
@@ -114,7 +114,6 @@ cd clinical-trial-api
 pip install -r requirements.txt
 python3 main.py
 Then open index.html in your browser
-Test the API:
 curl -X POST "http://localhost:8000/predict" \
   -H "Content-Type: application/json" \
   -d '{
@@ -134,31 +133,65 @@ curl -X POST "http://localhost:8000/predict" \
   }'
 View API Documentation:
 Visit http://localhost:8000/docs for interactive API documentation.
+Project Structure
+clinical-trial-api/
+├── main.py                    # FastAPI backend
+├── index.html                 # Web interface
+├── Procfile                   # Deployment configuration
+├── requirements.txt           # Python dependencies
+├── enrollment_model.pkl       # Trained model
+├── scaler.pkl                 # Feature scaler
+├── label_encoders.pkl         # Categorical encoders
+├── feature_columns.pkl        # Feature list
+└── screenshots/               # Project screenshots
+What This Project Demonstrates
+Technical Skills:
+
+End-to-end ML pipeline development
+RESTful API design with FastAPI
+Feature engineering methodology
+Model evaluation and selection
+Production-ready code structure
+
+Healthcare Domain Knowledge:
+
+Clinical trial recruitment challenges
+Patient data handling considerations
+Healthcare workflow integration
+Business impact quantification
+
+Product Thinking:
+
+Designed for actual users (research coordinators)
+Actionable recommendations beyond probabilities
+Integration-ready architecture
+Clear documentation for stakeholders
 
 
-## Screenshots
+Future Enhancements
+With additional time and resources, I would implement:
 
-### Web Interface
-![Interface](Screenshots/interface.png)
-
-### Prediction Examples
-High Probability Patient:  
-![High Probability](Screenshots/high-probability.png)
-
-Medium Probability Patient:  
-![Medium Probability](Screenshots/medium-probability.png)
-
-### API Documentation
-![API Docs](Screenshots/api-docs.png)
+Direct EHR integration via FHIR API (Epic, Cerner)
+Batch processing for bulk patient screening
+Dropout prediction model for enrolled patients
+Real-time analytics dashboard for trial managers
+A/B testing framework for recruitment strategies
 
 
-## Contact
+Tech Stack
+Machine Learning: Python, Scikit-learn, Pandas, NumPy
+Backend: FastAPI, Uvicorn, Pydantic
+Frontend: HTML5, CSS3, JavaScript
+Deployment: Railway-ready with Procfile
 
-Built by Sai Mudragada  
-LinkedIn: https://www.linkedin.com/in/saimudragada/
-Email: saimudragada1@gmail.com
-GitHub: [@Saimudragada](https://github.com/Saimudragada)
+Contact
+Sai Mudragada
+Email: saimudragada1012@gmail.com
+LinkedIn: [Your LinkedIn URL]
+GitHub: @Saimudragada
+Portfolio: [Your Portfolio URL]
 
----
+Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
 
-*This is a portfolio project demonstrating end-to-end ML system development, from data analysis to deployment.*
+If you found this project helpful, please star the repository!
+
