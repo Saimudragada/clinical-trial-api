@@ -439,7 +439,8 @@
             } catch (error) {
                 document.getElementById('loading').style.display = 'none';
                 const errorDiv = document.getElementById('errorMessage');
-                errorDiv.textContent = '❌ Error: Could not connect to API. Make sure the server is running at http://localhost:8000';
+             errorDiv.textContent = '❌ Error: Could not connect to the prediction server. Please try again in a moment.';
+
                 errorDiv.style.display = 'block';
                 console.error('Error:', error);
             }
