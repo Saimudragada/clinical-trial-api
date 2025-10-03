@@ -78,15 +78,15 @@ Future improvements I'm considering:
 ![Interface](Screenshots/interface.png)
 
 ### Prediction Examples
-
-**High Probability Patient:**
+High Probability Patient:  
 ![High Probability](Screenshots/high-probability.png)
 
-**Medium Probability Patient:**
+Medium Probability Patient:  
 ![Medium Probability](Screenshots/medium-probability.png)
 
 ### API Documentation
 ![API Docs](Screenshots/api-docs.png)
+
 
 ## Contact
 
