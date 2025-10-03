@@ -120,38 +120,47 @@ bashcurl -X POST "http://localhost:8000/predict" \
 
 ### API Documentation
 ![API Docs](screenshots/api-docs.png)
-What This Demonstrates
-Technical Skills:
 
-End-to-end ML pipeline development
-RESTful API design with FastAPI
-Feature engineering methodology
-Model evaluation and selection
-Production-ready code structure
+---
 
-Healthcare Domain Knowledge:
+## What This Demonstrates
 
-Clinical trial recruitment challenges
-Patient data handling considerations
-Healthcare workflow integration
-Business impact quantification
+**Technical Skills:**
+- End-to-end ML pipeline development
+- RESTful API design with FastAPI
+- Feature engineering methodology
+- Model evaluation and selection
+- Production-ready code structure
 
-Product Thinking:
+**Healthcare Domain Knowledge:**
+- Clinical trial recruitment challenges
+- Patient data handling considerations
+- Healthcare workflow integration
+- Business impact quantification
 
-Designed for actual users (research coordinators)
-Actionable recommendations beyond probabilities
-Integration-ready architecture
+**Product Thinking:**
+- Designed for actual users (research coordinators)
+- Actionable recommendations beyond probabilities
+- Integration-ready architecture
 
+---
 
-Tech Stack
-Machine Learning: Python, Scikit-learn, Pandas, NumPy
-Backend: FastAPI, Uvicorn, Pydantic
-Frontend: HTML5, CSS3, JavaScript
+## Tech Stack
 
-Contact
-Sai Mudragada
-Email: saimudragada1012@gmail.com
-LinkedIn: https://www.linkedin.com/in/saimudragada/
-GitHub: https://github.com/Saimudragada
+**Machine Learning:** Python, Scikit-learn, Pandas, NumPy  
+**Backend:** FastAPI, Uvicorn, Pydantic  
+**Frontend:** HTML5, CSS3, JavaScript
 
-Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
+---
+
+## Contact
+
+**Sai Mudragada**
+
+Email: saimudragada1012@gmail.com  
+LinkedIn: https://www.linkedin.com/in/saimudragada/  
+GitHub: [@Saimudragada](https://github.com/Saimudragada)
+
+---
+
+*Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.*
