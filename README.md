@@ -47,20 +47,11 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 ### System Architecture
 
-**Backend:**
-- FastAPI for REST API with automatic documentation
-- Pydantic for data validation
-- Serialized preprocessing pipeline (StandardScaler, LabelEncoders)
+**Backend:** FastAPI for REST API with automatic documentation, Pydantic for data validation, serialized preprocessing pipeline
 
-**Frontend:**
-- Responsive web interface for non-technical users
-- Real-time API integration
-- Clear visual indicators (HIGH/MEDIUM/LOW confidence)
+**Frontend:** Responsive web interface for non-technical users with real-time API integration
 
-**ML Pipeline:**
-- Feature engineering with derived metrics
-- Trained models saved as .pkl files for fast inference
-- Input validation and error handling
+**ML Pipeline:** Feature engineering with derived metrics, trained models saved as .pkl files for fast inference
 
 ---
 
@@ -82,51 +73,72 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 ## System Dashboard
 
-![Comprehensive Dashboard](screenshots/comprehensive-dashboard.png)
+![Comprehensive Dashboard](Screenshots/comprehensive-dashboard.png)
 
 *Complete analytics dashboard showing model performance, feature importance, and enrollment patterns*
 
 ---
 
-- ## Screenshots
+## Screenshots
 
+**High Probability Patient:**
 ![High Probability](Screenshots/high-probability.png)
+
+**Medium Probability Patient:**
 ![Medium Probability](Screenshots/medium-probability.png)
+
+**Web Interface:**
 ![Interface](Screenshots/interface.png)
+
+**API Documentation:**
 ![API Docs](Screenshots/api-docs.png)
 
+---
 
+## Quick Start
+```bash
+git clone https://github.com/Saimudragada/clinical-trial-api.git
+cd clinical-trial-api
+pip install -r requirements.txt
+python3 main.py
+Open index.html in your browser or visit http://localhost:8000/docs for API documentation.
 
-What This Project Demonstrates
+What This Demonstrates
 Technical Skills:
 
-End-to-end ML pipeline (data → model → deployment)
-API development with FastAPI
-Feature engineering and model selection methodology
+End-to-end ML pipeline development
+RESTful API design with FastAPI
+Feature engineering methodology
+Model evaluation and selection
 Production-ready code structure
 
 Healthcare Domain Knowledge:
 
-Understanding of clinical trial challenges
-HIPAA considerations for patient data
-Integration with healthcare workflows
+Clinical trial recruitment challenges
+Patient data handling considerations
+Healthcare workflow integration
 Business impact quantification
 
 Product Thinking:
 
-Built for actual users (research coordinators), not just data scientists
-Actionable recommendations, not just probabilities
-Designed for integration with existing systems
+Designed for actual users (research coordinators)
+Actionable recommendations beyond probabilities
+Integration-ready architecture
 
+
+Tech Stack
+Machine Learning: Python, Scikit-learn, Pandas, NumPy
+Backend: FastAPI, Uvicorn, Pydantic
+Frontend: HTML5, CSS3, JavaScript
 
 Future Enhancements
-If given more time/resources, I would add:
 
 EHR Integration: Direct connection to Epic/Cerner via FHIR API
-Dropout Prediction: Model to identify patients at risk of leaving trial mid-study
+Dropout Prediction: Identify patients at risk of leaving trial mid-study
 A/B Testing Framework: Compare recruitment strategies quantitatively
-Dashboard Analytics: Track enrollment trends over time for research managers
----
+Dashboard Analytics: Track enrollment trends over time
+
+
 Contact
 Sai Mudragada
 Email: saimudragada1@gmail.com
@@ -134,7 +146,3 @@ LinkedIn: https://www.linkedin.com/in/saimudragada/
 GitHub: https://github.com/Saimudragada
 
 Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
-
-
-*Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.*
-
