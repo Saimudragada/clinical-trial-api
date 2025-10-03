@@ -104,7 +104,9 @@ bashcurl -X POST "http://localhost:8000/predict" \
     "disease_category": "Cardiology",
     "site_location": "Urban",
     "referral_source": "Physician"
-  }'
+  }' ``` `
+
+
 ## Screenshots
 
 ### Web Interface
