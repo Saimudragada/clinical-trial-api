@@ -73,7 +73,7 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 ## System Dashboard
 
-![Comprehensive Dashboard](Screenshots/comprehensive-dashboard.png)
+![Comprehensive Dashboard](Screenshots/comprehensive_dashboard.png)
 
 *Complete analytics dashboard showing model performance, feature importance, and enrollment patterns*
 
@@ -95,15 +95,18 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 ---
 
-## Quick Start
+---
+
+## 🚀 Quick Start
 ```bash
 git clone https://github.com/Saimudragada/clinical-trial-api.git
 cd clinical-trial-api
 pip install -r requirements.txt
 python3 main.py
-Open index.html in your browser or visit http://localhost:8000/docs for API documentation.
+Open index.html in your browser or visit http://localhost:8000/docs
+ for API documentation.
 
-What This Demonstrates
+ What This Demonstrates
 Technical Skills:
 
 End-to-end ML pipeline development
@@ -141,8 +144,8 @@ Dashboard Analytics: Track enrollment trends over time
 
 Contact
 Sai Mudragada
-Email: saimudragada1@gmail.com
+Email: saimudragada1012@gmail.com
 LinkedIn: https://www.linkedin.com/in/saimudragada/
-GitHub: https://github.com/Saimudragada
+GitHub: @Saimudragada
 
 Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
