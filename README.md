@@ -104,15 +104,13 @@ bashcurl -X POST "http://localhost:8000/predict" \
     "disease_category": "Cardiology",
     "site_location": "Urban",
     "referral_source": "Physician"
-  }' ``` `
-
-
+  }'
 ## Screenshots
 
 ### Web Interface
 ![Interface](screenshots/interface.png)
 
-### Prediction Results
+### Prediction Examples
 
 **High Probability Patient:**
 ![High Probability](screenshots/high-probability.png)
@@ -123,46 +121,43 @@ bashcurl -X POST "http://localhost:8000/predict" \
 ### API Documentation
 ![API Docs](screenshots/api-docs.png)
 
+What This Project Demonstrates
+Technical Skills:
+
+End-to-end ML pipeline (data → model → deployment)
+API development with FastAPI
+Feature engineering and model selection methodology
+Production-ready code structure
+
+Healthcare Domain Knowledge:
+
+Understanding of clinical trial challenges
+HIPAA considerations for patient data
+Integration with healthcare workflows
+Business impact quantification
+
+Product Thinking:
+
+Built for actual users (research coordinators), not just data scientists
+Actionable recommendations, not just probabilities
+Designed for integration with existing systems
+
+
+Future Enhancements
+If given more time/resources, I would add:
+
+EHR Integration: Direct connection to Epic/Cerner via FHIR API
+Dropout Prediction: Model to identify patients at risk of leaving trial mid-study
+A/B Testing Framework: Compare recruitment strategies quantitatively
+Dashboard Analytics: Track enrollment trends over time for research managers
 ---
+Contact
+Sai Mudragada
+Email: saimudragada1@gmail.com
+LinkedIn: https://www.linkedin.com/in/saimudragada/
+GitHub: https://github.com/Saimudragada
 
-## What This Demonstrates
+Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
 
-**Technical Skills:**
-- End-to-end ML pipeline development
-- RESTful API design with FastAPI
-- Feature engineering methodology
-- Model evaluation and selection
-- Production-ready code structure
-
-**Healthcare Domain Knowledge:**
-- Clinical trial recruitment challenges
-- Patient data handling considerations
-- Healthcare workflow integration
-- Business impact quantification
-
-**Product Thinking:**
-- Designed for actual users (research coordinators)
-- Actionable recommendations beyond probabilities
-- Integration-ready architecture
-
----
-
-## Tech Stack
-
-**Machine Learning:** Python, Scikit-learn, Pandas, NumPy  
-**Backend:** FastAPI, Uvicorn, Pydantic  
-**Frontend:** HTML5, CSS3, JavaScript
-
----
-
-## Contact
-
-**Sai Mudragada**
-
-Email: saimudragada1012@gmail.com  
-LinkedIn: https://www.linkedin.com/in/saimudragada/  
-GitHub: [@Saimudragada](https://github.com/Saimudragada)
-
----
 
 *Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.*
