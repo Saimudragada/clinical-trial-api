@@ -78,6 +78,16 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 - Physician referrals convert at 56% vs 49% for self-referrals
 - Action: Strengthen physician partnerships
 
+---
+
+## System Dashboard
+
+![Comprehensive Dashboard](screenshots/comprehensive-dashboard.png)
+
+*Complete analytics dashboard showing model performance, feature importance, and enrollment patterns*
+
+---
+
 - ## Screenshots
 
 ![High Probability](Screenshots/high-probability.png)
