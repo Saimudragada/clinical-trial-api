@@ -135,6 +135,7 @@ curl -X POST "http://localhost:8000/predict" \
 View API Documentation:
 Visit http://localhost:8000/docs for interactive API documentation.
 
+
 ## Screenshots
 
 ### Web Interface
