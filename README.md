@@ -95,3 +95,74 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 
 ---
 
+---
+
+## ⚡ Quick Start
+
+```bash
+git clone https://github.com/Saimudragada/clinical-trial-api.git
+cd clinical-trial-api
+pip install -r requirements.txt
+python3 main.py
+➡️ Open index.html in your browser or visit http://localhost:8000/docs for API documentation.
+
+💡 What This Demonstrates
+🔧 Technical Skills
+
+End-to-end ML pipeline development
+
+RESTful API design with FastAPI
+
+Feature engineering methodology
+
+Model evaluation and selection
+
+Production-ready code structure
+
+🏥 Healthcare Domain Knowledge
+
+Clinical trial recruitment challenges
+
+Patient data handling considerations
+
+Healthcare workflow integration
+
+Business impact quantification
+
+💡 Product Thinking
+
+Designed for actual users (research coordinators)
+
+Actionable recommendations beyond probabilities
+
+Integration-ready architecture
+
+🛠 Tech Stack
+
+Machine Learning: Python, Scikit-learn, Pandas, NumPy
+
+Backend: FastAPI, Uvicorn, Pydantic
+
+Frontend: HTML5, CSS3, JavaScript
+
+🚀 Future Enhancements
+
+EHR Integration: Direct connection to Epic/Cerner via FHIR API
+
+Dropout Prediction: Identify patients at risk of leaving trial mid-study
+
+A/B Testing Framework: Compare recruitment strategies quantitatively
+
+Dashboard Analytics: Track enrollment trends over time
+
+📬 Contact
+
+Sai Mudragada
+
+📧 Email: saimudragada1@gmail.com
+
+💼 LinkedIn: linkedin.com/in/saimudragada
+
+💻 GitHub: github.com/Saimudragada
+
+Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
