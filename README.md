@@ -72,6 +72,22 @@ Future improvements I'm considering:
 - Predicting which patients might drop out mid-trial
 - Adding more patient demographic factors
 
+## Screenshots
+
+### Web Interface
+![Interface](screenshots/interface.png)
+
+### Prediction Examples
+
+**High Probability Patient:**
+![High Probability](screenshots/high-probability.png)
+
+**Medium Probability Patient:**
+![Medium Probability](screenshots/medium-probability.png)
+
+### API Documentation
+![API Docs](screenshots/api-docs.png)
+
 ## Contact
 
 Built by Sai Mudragada  
