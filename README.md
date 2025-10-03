@@ -76,7 +76,7 @@ Future improvements I'm considering:
 
 Built by Sai Mudragada  
 LinkedIn: https://www.linkedin.com/in/saimudragada/
-Email: saimudragada1@gmail.com  
+Email: saimudragada1@gmail.com
 GitHub: [@Saimudragada](https://github.com/Saimudragada)
 
 ---
