@@ -96,16 +96,6 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 ---
 
 ---
-
-## ⚡ Quick Start
-
-```bash
-git clone https://github.com/Saimudragada/clinical-trial-api.git
-cd clinical-trial-api
-pip install -r requirements.txt
-python3 main.py
-➡️ Open index.html in your browser or visit http://localhost:8000/docs for API documentation.
-
 💡 What This Demonstrates
 🔧 Technical Skills
 
