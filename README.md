@@ -78,34 +78,7 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 - Physician referrals convert at 56% vs 49% for self-referrals
 - Action: Strengthen physician partnerships
 
----
-
-## Quick Start
-```bash
-git clone https://github.com/Saimudragada/clinical-trial-api.git
-cd clinical-trial-api
-pip install -r requirements.txt
-python3 main.py
-Open index.html in your browser or visit http://localhost:8000/docs for API documentation.
-Test the API:
-bashcurl -X POST "http://localhost:8000/predict" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "age": 55,
-    "gender": "F",
-    "bmi": 26.5,
-    "smoker": 0,
-    "chronic_conditions": 2,
-    "previous_trials": 0,
-    "distance_to_site_miles": 25,
-    "insurance_type": "Private",
-    "education_level": "College",
-    "trial_phase": "Phase III",
-    "disease_category": "Cardiology",
-    "site_location": "Urban",
-    "referral_source": "Physician"
-  }'
-## Screenshots
+- ## Screenshots
 
 ### Web Interface
 ![Interface](screenshots/interface.png)
@@ -121,43 +94,3 @@ bashcurl -X POST "http://localhost:8000/predict" \
 ### API Documentation
 ![API Docs](screenshots/api-docs.png)
 
-What This Project Demonstrates
-Technical Skills:
-
-End-to-end ML pipeline (data → model → deployment)
-API development with FastAPI
-Feature engineering and model selection methodology
-Production-ready code structure
-
-Healthcare Domain Knowledge:
-
-Understanding of clinical trial challenges
-HIPAA considerations for patient data
-Integration with healthcare workflows
-Business impact quantification
-
-Product Thinking:
-
-Built for actual users (research coordinators), not just data scientists
-Actionable recommendations, not just probabilities
-Designed for integration with existing systems
-
-
-Future Enhancements
-If given more time/resources, I would add:
-
-EHR Integration: Direct connection to Epic/Cerner via FHIR API
-Dropout Prediction: Model to identify patients at risk of leaving trial mid-study
-A/B Testing Framework: Compare recruitment strategies quantitatively
-Dashboard Analytics: Track enrollment trends over time for research managers
----
-Contact
-Sai Mudragada
-Email: saimudragada1@gmail.com
-LinkedIn: https://www.linkedin.com/in/saimudragada/
-GitHub: https://github.com/Saimudragada
-
-Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
-
-
-*Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.*
