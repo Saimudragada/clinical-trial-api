@@ -1,41 +1,45 @@
-# Clinical Trial Enrollment Predictor
+# 🏥 Clinical Trial Enrollment Predictor  
 
-A production-ready machine learning system that predicts patient enrollment probability for clinical trials, reducing screening time by 40% and saving research teams $30,000+ annually.
-
----
-
-## The Problem
-
-Clinical trial recruitment is expensive and inefficient. Research coordinators manually screen hundreds of patients, spending 20-30 minutes per candidate, with only 50% enrollment rates. Half of this effort is wasted on patients who decline.
-
-## The Solution
-
-I built an end-to-end ML system that predicts enrollment probability in real-time, enabling teams to prioritize high-likelihood candidates. This includes a REST API, web interface, and actionable recommendations ready for clinical workflows.
+A production-ready machine learning system that predicts patient enrollment probability for clinical trials, reducing screening time by **40%** and saving research teams **$30,000+ annually**.  
 
 ---
 
-## Business Impact
+## 📌 The Problem  
+Clinical trial recruitment is expensive and inefficient. Research coordinators manually screen hundreds of patients, spending 20–30 minutes per candidate, with only ~50% enrollment rates. Half of this effort is wasted on patients who decline.  
+
+---
+
+## 💡 The Solution  
+I built an **end-to-end ML system** that predicts enrollment probability in real-time, enabling teams to prioritize high-likelihood candidates.  
+This includes:  
+- A **REST API** (FastAPI)  
+- A **web interface**  
+- **Actionable recommendations** ready for clinical workflows  
+
+---
+
+## 📊 Business Impact  
 
 | Metric | Value |
 |--------|-------|
-| Model Performance (ROC-AUC) | 0.599 |
-| Screening Time Reduction | 40% |
-| Annual Cost Savings | $30,000+ |
-| Dataset Size | 5,000 patients |
-| Features Analyzed | 20+ |
+| Model Performance (ROC-AUC) | **0.599** |
+| Screening Time Reduction | **40%** |
+| Annual Cost Savings | **$30,000+** |
+| Dataset Size | **5,000 patients** |
+| Features Analyzed | **20+** |
 
 ---
 
-## Technical Approach
+## 🛠️ Technical Approach  
 
-### Data Engineering
-- Analyzed 5,000+ patient records across multiple trial phases
-- Engineered 20+ features including composite risk scores
-- Handled categorical encoding for insurance, referral source, disease category
-- Created distance-based accessibility metrics
-- Addressed class imbalance through stratified sampling
+### 🔹 Data Engineering  
+- Analyzed **5,000+ patient records** across multiple trial phases  
+- Engineered **20+ features** including composite risk scores  
+- Handled categorical encoding (insurance, referral source, disease category)  
+- Created **distance-based accessibility metrics**  
+- Addressed **class imbalance** through stratified sampling  
 
-### Model Selection
+### 🔹 Model Selection  
 
 | Model | ROC-AUC | Accuracy | Why Selected |
 |-------|---------|----------|--------------|
@@ -43,126 +47,100 @@ I built an end-to-end ML system that predicts enrollment probability in real-tim
 | Random Forest | 0.591 | 57.5% | Strong performance but less interpretable |
 | Gradient Boosting | 0.579 | 55.5% | Risk of overfitting |
 
-**Decision Rationale:** Clinical teams need to understand why predictions are made, not just receive scores. Logistic Regression provides clear feature importance and probability calibration.
+**Decision Rationale:** Logistic Regression was chosen since clinical teams need explainability — feature importance + probability calibration.  
 
-### System Architecture
+### 🔹 System Architecture  
 
-**Backend:** FastAPI for REST API with automatic documentation, Pydantic for data validation, serialized preprocessing pipeline
-
-**Frontend:** Responsive web interface for non-technical users with real-time API integration
-
-**ML Pipeline:** Feature engineering with derived metrics, trained models saved as .pkl files for fast inference
+**Backend:** FastAPI, Pydantic, serialized preprocessing pipeline (StandardScaler, LabelEncoders)  
+**Frontend:** Responsive web interface with real-time API integration  
+**ML Pipeline:** Feature engineering, trained models as `.pkl`, input validation, error handling  
 
 ---
 
-## Key Data Insights
+## 🔍 Key Data Insights  
 
-**1. Previous Trial Experience Doubles Enrollment**
-- Patients with prior participation show 2x higher enrollment
-- Action: Maintain database of previous participants
+**1. Previous Trial Experience Doubles Enrollment**  
+- Patients with prior participation show **2x higher enrollment**  
+- ✅ Action: Maintain database of previous participants  
 
-**2. Proximity Critical to Success**
-- Patients within 30 miles have 50% higher enrollment rates
-- Action: Prioritize local outreach, offer transportation
+**2. Proximity Critical to Success**  
+- Patients within **30 miles** have **50% higher enrollment rates**  
+- ✅ Action: Prioritize local outreach, offer transportation  
 
-**3. Referral Source Matters**
-- Physician referrals convert at 56% vs 49% for self-referrals
-- Action: Strengthen physician partnerships
-
----
-
-## System Dashboard
-
-![Comprehensive Dashboard](Screenshots/comprehensive_dashboard.png)
-
-*Complete analytics dashboard showing model performance, feature importance, and enrollment patterns*
+**3. Referral Source Matters**  
+- Physician referrals convert at **56% vs 49%** for self-referrals  
+- ✅ Action: Strengthen physician partnerships  
 
 ---
 
-## Screenshots
+## 📊 System Dashboard  
 
-**High Probability Patient:**
-![High Probability](Screenshots/high-probability.png)
+![Comprehensive Dashboard](Screenshots/comprehensive_dashboard.png)  
 
-**Medium Probability Patient:**
-![Medium Probability](Screenshots/medium-probability.png)
-
-**Web Interface:**
-![Interface](Screenshots/interface.png)
-
-**API Documentation:**
-![API Docs](Screenshots/api-docs.png)
+*Complete analytics dashboard showing model performance, feature importance, and enrollment patterns.*  
 
 ---
 
+## 🖼️ Screenshots  
+
+### High Probability Example  
+![High Probability](Screenshots/high-probability.png)  
+
+### Medium Probability Example  
+![Medium Probability](Screenshots/medium-probability.png)  
+
+### Web Interface  
+![Interface](Screenshots/interface.png)  
+
+### API Documentation  
+![API Docs](Screenshots/api-docs.png)  
+
 ---
 
-## ⚡ Quick Start
+## 💡 What This Project Demonstrates  
 
-```bash
-git clone https://github.com/Saimudragada/clinical-trial-api.git
-cd clinical-trial-api
-pip install -r requirements.txt
-python3 main.py
-➡️ Open index.html in your browser or visit http://localhost:8000/docs for API documentation.
+### 🔧 Technical Skills  
+- End-to-end ML pipeline development (data → model → deployment)  
+- RESTful API design with **FastAPI**  
+- Feature engineering methodology  
+- Model evaluation and selection  
+- Production-ready code structure  
 
-💡 What This Demonstrates
-🔧 Technical Skills
+### 🏥 Healthcare Domain Knowledge  
+- Clinical trial recruitment challenges  
+- Patient data handling considerations (**HIPAA**)  
+- Healthcare workflow integration  
+- Business impact quantification  
 
-End-to-end ML pipeline development
+### 💡 Product Thinking  
+- Designed for **actual users** (research coordinators)  
+- Actionable recommendations beyond probabilities  
+- Integration-ready architecture  
 
-RESTful API design with FastAPI
+---
 
-Feature engineering methodology
+## ⚙️ Tech Stack  
+- **Machine Learning:** Python, Scikit-learn, Pandas, NumPy  
+- **Backend:** FastAPI, Uvicorn, Pydantic  
+- **Frontend:** HTML5, CSS3, JavaScript  
 
-Model evaluation and selection
+---
 
-Production-ready code structure
+## 🚀 Future Enhancements  
+- **EHR Integration:** Connect to Epic/Cerner via FHIR API  
+- **Dropout Prediction:** Identify patients at risk of leaving trial mid-study  
+- **A/B Testing Framework:** Compare recruitment strategies quantitatively  
+- **Dashboard Analytics:** Track enrollment trends over time  
 
-🏥 Healthcare Domain Knowledge
+---
 
-Clinical trial recruitment challenges
+## 📬 Contact  
 
-Patient data handling considerations
+**Sai Mudragada**  
+- 📧 Email: [saimudragada1@gmail.com](mailto:saimudragada1@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/saimudragada](https://www.linkedin.com/in/saimudragada/)  
+- 💻 GitHub: [github.com/Saimudragada](https://github.com/Saimudragada)  
 
-Healthcare workflow integration
+---
 
-Business impact quantification
-
-💡 Product Thinking
-
-Designed for actual users (research coordinators)
-
-Actionable recommendations beyond probabilities
-
-Integration-ready architecture
-
-🛠 Tech Stack
-
-Machine Learning: Python, Scikit-learn, Pandas, NumPy
-
-Backend: FastAPI, Uvicorn, Pydantic
-
-Frontend: HTML5, CSS3, JavaScript
-
-🚀 Future Enhancements
-
-EHR Integration: Direct connection to Epic/Cerner via FHIR API
-
-Dropout Prediction: Identify patients at risk of leaving trial mid-study
-
-A/B Testing Framework: Compare recruitment strategies quantitatively
-
-Dashboard Analytics: Track enrollment trends over time
-
-📬 Contact
-
-Sai Mudragada
-
-📧 Email: saimudragada1@gmail.com
-
-💼 LinkedIn: linkedin.com/in/saimudragada
-
-💻 GitHub: github.com/Saimudragada
-
-Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.
+*Built as a portfolio project demonstrating production ML system development for healthcare analytics roles.*  
