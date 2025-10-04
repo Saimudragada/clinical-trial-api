@@ -33,7 +33,19 @@ This includes:
 ## 🛠️ Technical Approach  
 
 ### 🔹 Data Engineering  
-- Analyzed 5,000+ patient records across multiple trial phases in **Google Colab**   
+-### Dataset
+
+A **synthetic dataset of 5,000 patients** was generated in **Google Colab**, simulating real-world clinical trial enrollment patterns.  
+
+The dataset includes demographics, health conditions, trial logistics, and referral sources.  
+Enrollment probability was modeled using domain-inspired rules:  
+- Previous trial experience increases likelihood  
+- Proximity to trial site improves chances  
+- Elderly patients less likely to enroll  
+- Higher education improves enrollment  
+
+This approach ensures realistic patient behavior while maintaining privacy and avoiding HIPAA concerns.
+  
 - Engineered **20+ features** including composite risk scores  
 - Handled categorical encoding (insurance, referral source, disease category)  
 - Created **distance-based accessibility metrics**  
