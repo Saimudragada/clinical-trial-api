@@ -33,7 +33,7 @@ This includes:
 ## 🛠️ Technical Approach  
 
 ### 🔹 Data Engineering  
-- Analyzed **5,000+ patient records** across multiple trial phases  
+- Analyzed 5,000+ patient records across multiple trial phases in **Google Colab**   
 - Engineered **20+ features** including composite risk scores  
 - Handled categorical encoding (insurance, referral source, disease category)  
 - Created **distance-based accessibility metrics**  
@@ -74,6 +74,7 @@ This includes:
 ---
 
 ## 📊 System Dashboard  
+Built and visualized in **Google Colab** using Matplotlib & Pandas profiling.  
 
 ![Comprehensive Dashboard](Screenshots/comprehensive_dashboard.png)  
 
@@ -122,7 +123,8 @@ This includes:
 ## ⚙️ Tech Stack  
 - **Machine Learning:** Python, Scikit-learn, Pandas, NumPy  
 - **Backend:** FastAPI, Uvicorn, Pydantic  
-- **Frontend:** HTML5, CSS3, JavaScript  
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Platform:** Google Colab (cloud-based model training & visualization) ✅
 
 ---
 
